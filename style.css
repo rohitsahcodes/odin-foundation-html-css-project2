@@ -1,0 +1,220 @@
+/* main-together section */
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: roboto;    
+    box-sizing: border-box;
+    border: 3px dashed rgb(227, 124, 112);
+}
+
+.container{
+    background-color: red;
+    height: 100%;
+    border: 2px solid rgb(16, 213, 121);
+    /* padding: 0 100px; */
+    /* background-color: aquamarine; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto auto; */
+}
+
+/* (Header/heading)-section  */
+
+.header-section{
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    background-color: #344153;
+    padding: 0 250px;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul li{
+    padding: 0 7px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.header-logo{
+    color: #f9f8f8;
+    font-size: 24px;
+}
+
+
+/* hero section */
+.hero-section{
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.hero{
+    flex: 1;
+    /* border: 2px solid; */
+    color: #E5E7EB;
+}
+
+.hero-text{
+    box-sizing: border-box;
+    padding-right: 50px;
+    
+}
+.hero-button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.hero-image{
+    flex: 1;
+    background-color: #525b69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-title{
+    font-size: 48px;
+    /* color: #F9F1F8; */
+    font-weight: 900;
+
+}
+
+/* Informations/cards section */
+
+.info{
+    background-color: rgb(152, 107, 197);
+    padding: 25px 15%;
+    border: 3px dotted;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.info-cards{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 0 100px 0;
+}
+
+
+
+.card{
+    /* border: 2px solid yellow; */
+    width: 200px;
+    margin: 3%;
+
+}
+
+.card img{
+    display: flex;
+    border: 2px solid #1F2937;
+    height: 200px;
+    width: 200px;
+    border-radius: 8%;    
+
+}
+
+.card-text{
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quote section */
+
+.quote{
+    background-color: rgb(177, 133, 222);
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    /* padding: 150px 350px; */
+}
+
+.quote-author{
+    padding: 15px;
+    text-align: end;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* call-to-action(cta) section */
+
+.cta-box{
+    flex: 1;
+    background-color: rebeccapurple;
+}
+
+
+/* foother section */
+
+footer{
+    margin: 0;
+    padding: 35px 250px;
+    text-align: center;
+    background-color: #1F2937;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header up gara paxi */
+
+
